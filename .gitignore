@@ -1,0 +1,25 @@
+# Hidden directories
+.cache
+.lsp-session-v1
+.svn
+
+# Directories
+auto-save-list
+elpa
+eshell
+fonts
+network-security.data
+recentf
+url
+srecode-map.el
+elpy
+transient
+
+# Temporary files
+.emacs.desktop
+.emacs.desktop.lock
+projectile-bookmarks.eld
+session.*
+snippets/c++-mode/.yas-compiled-snippets.el
+.last-package-update-day
+tramp

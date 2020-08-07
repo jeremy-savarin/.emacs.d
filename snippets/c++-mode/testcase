@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: testcase
+# key: testcase
+# --
+TEST(${1:Name}, ${2:Test}) {
+  $0
+}

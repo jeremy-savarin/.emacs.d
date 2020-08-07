@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name; elifblock
+# key: elifblock
+# --
+else if (${1:condition}) {
+  $0
+}

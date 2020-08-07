@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: guardblock
+# key: guardblock
+# --
+#ifndef __${1:Filename}__
+#define __$1__
+
+$0
+
+#endif // __$1__

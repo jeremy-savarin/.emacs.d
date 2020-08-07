@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: doxy
+# key: doxy
+# --
+/// ${1:Brief description.}
+${2:///
+/// ${3:Details}}
+${4:///
+/// ${5:\param[${6:$$(yas-choose-value '("in" "out" "in/out"))}] ${7:param}}}
+${8:///
+/// ${9:\return ${10:return value}}}
