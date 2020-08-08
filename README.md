@@ -123,7 +123,8 @@ https://github.com/redhat-developer/yaml-language-server)
 
 ## Installation
 
-1. `git clone https://njgitlab/Jeremy.Savarin/emacs.d.git` in home directory.
+1. Clone the repository to your home directory (or wherever your `.emacs.d` is
+defined).
 1. Open `emacs`.
 1. Install `use-package`: `M-x package install RET use-package`
 1. If above does not work, package repositories may need to be refreshed. Run
