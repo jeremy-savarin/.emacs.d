@@ -1,4 +1,4 @@
-;; Markdown settings
+;; Markup language settings
 
 ;; Markdown mode
 (use-package markdown-mode
@@ -8,13 +8,14 @@
          ("\\.markdown\\'" . markdown-mode))
   :init (setq markdown-command "pandoc")
   :hook (markdown-mode .
-                       (lambda() (flycheck-add-next-checker  'markdown-markdownlint-cli
+                       (lambda() (flycheck-add-next-checker 'markdown-markdownlint-cli
                                                         '(warning . proselint))
                          (flycheck-add-next-checker 'proselint
                                                     '(warning . textlint)))))
 
 ;; AsciiDoc mode
-(use-package adoc-mode)
+(use-package adoc-mode
+  :mode (("\\.adoc\\'" . adoc-mode)))
 
 ;; Yaml mode
 (use-package yaml-mode)
