@@ -65,10 +65,6 @@
 ;; Return key also indents
 (electric-indent-mode 1)
 
-;; Set character encoding
-(set-language-environment "UTF-8")
-(set-default-coding-systems 'utf-8)
-
 ;; Stop making autosave and lock files
 (setq make-backup-files nil)
 (setq auto-save-default nil)
