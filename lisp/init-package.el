@@ -15,6 +15,11 @@
 (when (< emacs-major-version 27)
   (package-initialize))
 
+;; Install use-package if not installed already
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
 ;; use-package to manage package installation and settings
 (eval-when-compile
   (require 'use-package))
