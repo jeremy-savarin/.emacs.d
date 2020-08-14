@@ -1,8 +1,0 @@
-;; Python settings
-
-;; Use python3 as default interpreter
-(setq python-shell-interpreter "python3")
-
-;; Elpy python IDE
-(use-package elpy
-  :init (elpy-enable))
