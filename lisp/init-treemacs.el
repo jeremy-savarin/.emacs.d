@@ -21,4 +21,8 @@
   :after treemacs dired
   :config (treemacs-icons-dired-mode))
 
+(use-package treemacs-all-the-icons
+  :after treemacs
+  :config (all-the-icons-install-fonts 'y))
+
 (provide 'init-treemacs)
