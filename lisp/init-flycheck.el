@@ -6,6 +6,8 @@
   ;; Max amount of allowed errors
   (setq flycheck-checker-error-threshold 1000)
   :hook (prog-mode . flycheck-mode)
+  :hook (markdown-mode . flycheck-mode)
+  :hook (adoc-mode . flycheck-mode)
   :hook (lsp-after-initialize .
                               (lambda() (flycheck-add-next-checker
                                     'lsp '(warning . c/c++-cppcheck))
