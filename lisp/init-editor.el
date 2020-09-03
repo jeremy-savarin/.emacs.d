@@ -115,7 +115,7 @@
 
 (use-package doom-themes
   :config
-  (load-theme 'doom-monokai-pro t)
+  (load-theme 'doom-dracula t)
   ;; Flashing mode line on errors
   (doom-themes-visual-bell-config)
   ;; Treemacs theme
