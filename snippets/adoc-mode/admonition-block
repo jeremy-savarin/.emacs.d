@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: admonition-block
+# key: admon
+# --
+[${1:NOTE}]
+****
+$1
+****
