@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: source-block
 # key: source-block
-# --g
+# --
 [source,${1:console}]
 ----
 $0
